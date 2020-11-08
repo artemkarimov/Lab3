@@ -37,6 +37,10 @@ body {
   background-color: black;
 }
 
+.menu_button:hover {
+  cursor: pointer;
+}
+
 .menu_button span::before,
 .menu_button span::after {
   height: 2px;
@@ -362,6 +366,11 @@ ul {
 .rightButton {
   font-size: 20px;
   margin-left: 27px;
+}
+
+.leftButton:hover,
+.rightButton:hover {
+  cursor: pointer;
 }
 
 .bottom {
